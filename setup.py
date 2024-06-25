@@ -5,7 +5,7 @@ with open('readme.md','r') as file:
 setuptools.setup(
 	name = 'preprocess_arjun',
 	version = '0.0.1',
-	author = 'Arjun',
+	author = 'Arjun0335',
 	author_email = 'arjungupta0335@gmail.com',
 	description = 'This is preprocessing python package',
 	long_description = long_description,
