@@ -1,4 +1,4 @@
-from preprocess_arjun import utils
+from preprocess_arjun import Utils
 
 __version__ = '0.0.3'
 
