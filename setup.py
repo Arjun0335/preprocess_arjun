@@ -1,5 +1,5 @@
 import setuptools
-with open('readme.md','r') as file:
+with open('README.md','r') as file:
 	long_description = file.read()
 	
 setuptools.setup(
@@ -10,7 +10,7 @@ setuptools.setup(
 	description = 'This is preprocessing python package',
 	long_description = long_description,
 	long_description_content_type = 'text/markdown',
-	packages = setuptools.find_packages,
+	packages = setuptools.find_packages(),
 	classifiers = [
 	'Programming Language :: Python :: 3',
 	'License :: OSI Approved :: MIT License',
